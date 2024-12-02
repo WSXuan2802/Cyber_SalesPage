@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <title>Apple Watch Series 10</title>
+        <style>
+            /* Style for flex container to evenly space the items */
+            .container {
+                background-color: black;
+                display: flex;
+                width: 100%;  /* Ensures the container uses the full width of the page */
+                justify-content: space-between;
+                align-items: stretch; /* Ensures equal height */
+            }
+
+            .container-2 {
+                background-color: white;
+                display: flex;
+                width: 100%;  /* Ensures the container uses the full width of the page */
+                justify-content: space-between;
+                align-items: stretch; /* Ensures equal height */
+            }
+
+            .content-2, .image-2 {
+                width: 50%;  /* Makes both the paragraph and the image use 50% of the width */
+                height: 100%; /* Ensures both have the same height */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden; /* Prevents overflow */
+            }
+
+            .content-2 {
+                font-size: 25px; /* Adjust font size */
+                color: black;
+                line-height: 1.5; /* Ensures spacing between lines */
+                padding: 10px; /* Adds padding for better readability */
+                text-align: justify; /* Justifies text to fit space */
+                overflow: auto; /* Allows scrolling if the text overflows */
+                padding-top: 150px;
+            }
+
+            /* Ensuring both the paragraph and the image are of equal width and height */
+            .content, .image {
+                width: 50%;  /* Makes both the paragraph and the image use 50% of the width */
+                height: 100%; /* Ensures both have the same height */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden; /* Prevents overflow */
+            }
+
+            /* Paragraph styling */
+            .content {
+                font-size: 25px; /* Adjust font size */
+                color: white;
+                line-height: 1.5; /* Ensures spacing between lines */
+                padding: 10px; /* Adds padding for better readability */
+                text-align: justify; /* Justifies text to fit space */
+                overflow: auto; /* Allows scrolling if the text overflows */
+                padding-top: 80px;
+            }
+
+            /* Makes sure the image is responsive to fit the container */
+            .image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures the image covers the entire area */
+            }
+
+            button{
+                background-color: black;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 12px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center">Your digital assistant, Apple Watch Series 10.</h1>
+        <p style="text-align: center; padding-top: 0px; line-height: 0%;"><b>Officially released on the market on September 20, 2024.</b></p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <p style="font-size: 25px;"><b>Sutiable for</b></p>
+            <i class="bi bi-check-circle" style="margin: 0 10px; font-size: 25px;"> Students</i>
+            <i class="bi bi-check-circle" style="margin: 0 10px; font-size: 25px;"> Workers</i>
+            <i class="bi bi-check-circle" style="margin: 0 10px; font-size: 25px;"> Fitness Enthusiasts</i>
+        </div>
+        <img src="cover.jpg" style="width:100%;">
+        <br>
+        <h2 style="text-align:center">Are you ready to take your productivity, health, and style to the next level? 
+            Meet the Apple Watch Series 10 — the thinnest, most advanced smartwatch Apple has ever created!</h2>
+        <br><br>
+        <div class="container">
+            <div class="content">
+                <p ><b>
+                    With its sleek design, available in premium aluminium and titanium, the Apple Watch Series 10 is built to be both durable and lightweight, making it the perfect companion for your busy lifestyle. 
+                    Its vibrant, edge-to-edge display offers stunning clarity and brightness, while advanced health and fitness features like heart rate monitoring, workout tracking, and sleep analysis keep you at your best every day.
+                </b></p>
+            </div>
+            <div class="image">
+                <img src="image3.jpg" style="height:100%">
+            </div>
+        </div>
+
+        <br>
+        <div class="container-2">
+            <div class="image-2">
+                <img src="image 4.jpg" style="height:100%">
+            </div>
+            <div class="content-2">
+                <p><b>
+                    Imagine receiving all your important notifications, messages, and reminders at a glance, right from your wrist. 
+                    With its cutting-edge technology and seamless integration with your other Apple devices, the Series 10 ensures you stay connected and organized. 
+                    Plus, its slim profile makes it the most comfortable and stylish smartwatch for all-day wear.
+                </b></p>
+            </div>
+        </div>
+        <br>
+        <h2 style="text-align: center; font-size: 50px;">Key features</h2>
+        <div class="container-3" style="display: flex; justify-content: space-between; background-color: black;">
+            <div class="point" style="display: inline-block; flex: 1 1 33%; margin: 0 10px;">
+                <div style="display: flex; justify-content: center;">
+                    <i class="bi bi-heart-pulse" style="font-size: 100px; margin-bottom: 10px; color: white ; margin-top: 20px;"></i>
+                </div>
+                <p style="text-align: center; font-size: 25px; color: white;"><b>Health Monitoring and Emergency Features</b></p>
+                <p style="text-align: justify; text-align: center; color: white;">The Series 10 includes advanced health features such as ECG, blood oxygen monitoring, fall detection, and emergency SOS. These functionalities help track your overall health and provide critical assistance in case of an emergency.</p>
+            </div>
+            <div class="point" style="display: inline-block; flex: 1 1 33%; margin: 0 10px;">
+                <div style="display: flex; justify-content: center;">
+                    <i class="bi bi-bicycle" style="font-size: 100px; margin-bottom: 10px; color: white; margin-top: 20px;"></i></i>
+                </div>
+                <p style="text-align: center; font-size: 25px; color: white;"><b>Fitness and Activity Tracking</b></p>
+                <p style="text-align: justify; text-align: center; color: white;"> The Series 10 tracks a wide range of physical activities, from walking and running to swimming and cycling, while monitoring vital metrics like calories burned, heart rate, and workout duration.</p>
+            </div>
+            <div class="point" style="display: inline-block; flex: 1 1 33%; margin: 0 10px;">
+                <div style="display: flex; justify-content: center;">
+                    <i class="bi bi-bell" style="font-size: 100px; margin-bottom: 10px; color: white; margin-top: 20px;"></i>
+                </div>
+                <p style="text-align: center; font-size: 25px; color: white;"><b>Smart Notifications and Communication</b></p>
+                <p style="text-align: justify; text-align: center; color: white;">The Apple Watch Series 10 allows you to receive and respond to notifications, calls, messages, and emails directly from your wrist, keeping you connected even when your phone isn't within reach.</p>
+            </div>
+        </div>
+
+        <br>
+        <h2 style="text-align: center; font-size: 50px;">Don’t wait! </h2>
+        <p style="text-align: center; font-size: 25px;" >Elevate your everyday experience with the Apple Watch Series 10.</p>
+        <p style="text-align: center; font-size: 25px;" >Visit your nearest Apple Store or shop online today and discover how this powerful smartwatch can transform the way you live, work, and play.</p>
+        <div style="display: flex; justify-content: center;">
+            <button style="margin: 0 10px;" onclick="window.open('https://www.apple.com/my/apple-watch-series-10/','_blank')"> <a style="color: white; text-decoration: none;">Learn More</a></button>
+            <button style="margin: 0 10px;" onclick="window.open('https://www.apple.com/my/shop/buy-watch/apple-watch','_blank')"> <a style="color: white; text-decoration: none;">Shop Now</a></button>
+        </div>
+
+        <br><br>
+        <footer style="background-color: black; color: white; padding: 10px;">
+            <div style="display: flex; justify-content: space-between;">
+            <p style="text-align: left;"><i class="bi bi-c-circle"> Copywriting of Apple Watch Series 10</i></p>
+            <p style="text-align: right;"> Author: Wong Shiao Xuan</p>
+        </footer>
+
+    </body>
+</html>
+
